@@ -17,4 +17,4 @@ A three-page static student portfolio website (Home, About, Contact) built with 
 
 ## Live Site
 
-Live site: `[https://umair4334.github.io/my-website/]`
+Live site: [https://umair4334.github.io/my-website/]
