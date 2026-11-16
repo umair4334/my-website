@@ -1,0 +1,153 @@
+/* ===== RESET / BOX MODEL ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #222222;
+  line-height: 1.6;
+}
+
+/* ===== HEADER (Flexbox) ===== */
+header {
+  background-color: #1b365d;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* ===== NAVIGATION (Flexbox) ===== */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== MAIN ===== */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* ===== SECTION (Box Model) ===== */
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1b365d;
+  margin-top: 0;
+}
+
+/* ===== ID SELECTOR ===== */
+#welcome {
+  border-left: 6px solid #1b365d;
+}
+
+/* ===== CLASS SELECTORS ===== */
+.highlight {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+/* ===== FLEXBOX CARDS ===== */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background-color: #f8fafc;
+  border: 1px solid #d8e1ea;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1b365d;
+}
+
+/* ===== TABLE ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #999999;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1b365d;
+  color: white;
+}
+
+/* ===== FORM ===== */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #1b365d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #142847;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1b365d;
+  color: white;
+}
